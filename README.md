@@ -80,5 +80,3 @@ pipe = StableDiffusionXLPipeline.from_pretrained("path/to/your/output_folder")
 
 * **Out of GPU Memory (VRAM) / CPU RAM:** SDXL checkpoints are massive. If the script crashes during the `from_single_file` loading sequence, close memory-heavy applications (like your web UI or browser tabs) and ensure **Use Half Precision (fp16)** is checked.
 * **Python Path Error:** If `run_windows.bat` throws a path error, ensure that Python 3.10+ is correctly installed from python.org and that the "Add Python to PATH" option was checked during installation.
-
-```
