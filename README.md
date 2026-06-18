@@ -82,5 +82,3 @@ pipe = StableDiffusionXLPipeline.from_pretrained("path/to/your/output_folder")
 * **Python Path Error:** If `run_windows.bat` throws a path error, ensure that Python 3.10+ is correctly installed from python.org and that the "Add Python to PATH" option was checked during installation.
 
 ```
-
-```
